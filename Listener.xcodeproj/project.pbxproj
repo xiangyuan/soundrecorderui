@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1456C3721663162F00D62A9D /* voice_sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 1456C3711663162F00D62A9D /* voice_sound.png */; };
+		1456C3781663269500D62A9D /* max.png in Resources */ = {isa = PBXBuildFile; fileRef = 1456C3761663269500D62A9D /* max.png */; };
+		1456C37D16632A0A00D62A9D /* min.png in Resources */ = {isa = PBXBuildFile; fileRef = 1456C37C16632A0A00D62A9D /* min.png */; };
+		1456C37F16632DE000D62A9D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1456C37E16632DE000D62A9D /* AVFoundation.framework */; };
+		147FADB81661FC6A005531E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147FADB71661FC6A005531E6 /* UIKit.framework */; };
+		147FADBA1661FC6A005531E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147FADB91661FC6A005531E6 /* Foundation.framework */; };
+		147FADBC1661FC6A005531E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147FADBB1661FC6A005531E6 /* CoreGraphics.framework */; };
+		147FADC21661FC6A005531E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 147FADC01661FC6A005531E6 /* InfoPlist.strings */; };
+		147FADC41661FC6A005531E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 147FADC31661FC6A005531E6 /* main.m */; };
+		147FADC81661FC6A005531E6 /* ListenerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 147FADC71661FC6A005531E6 /* ListenerAppDelegate.m */; };
+		147FADCA1661FC6A005531E6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 147FADC91661FC6A005531E6 /* Default.png */; };
+		147FADCC1661FC6A005531E6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 147FADCB1661FC6A005531E6 /* Default@2x.png */; };
+		147FADCE1661FC6A005531E6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 147FADCD1661FC6A005531E6 /* Default-568h@2x.png */; };
+		147FADD11661FC6A005531E6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147FADCF1661FC6A005531E6 /* MainStoryboard.storyboard */; };
+		147FADD41661FC6A005531E6 /* ListenerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 147FADD31661FC6A005531E6 /* ListenerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1456C3711663162F00D62A9D /* voice_sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voice_sound.png; sourceTree = "<group>"; };
+		1456C374166320EE00D62A9D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1456C3761663269500D62A9D /* max.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = max.png; sourceTree = "<group>"; };
+		1456C37C16632A0A00D62A9D /* min.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = min.png; sourceTree = "<group>"; };
+		1456C37E16632DE000D62A9D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		147FADB31661FC6A005531E6 /* Listener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Listener.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		147FADB71661FC6A005531E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		147FADB91661FC6A005531E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		147FADBB1661FC6A005531E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		147FADBF1661FC6A005531E6 /* Listener-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Listener-Info.plist"; sourceTree = "<group>"; };
+		147FADC11661FC6A005531E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		147FADC31661FC6A005531E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		147FADC51661FC6A005531E6 /* Listener-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Listener-Prefix.pch"; sourceTree = "<group>"; };
+		147FADC61661FC6A005531E6 /* ListenerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListenerAppDelegate.h; sourceTree = "<group>"; };
+		147FADC71661FC6A005531E6 /* ListenerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListenerAppDelegate.m; sourceTree = "<group>"; };
+		147FADC91661FC6A005531E6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		147FADCB1661FC6A005531E6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		147FADCD1661FC6A005531E6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		147FADD01661FC6A005531E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		147FADD21661FC6A005531E6 /* ListenerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListenerViewController.h; sourceTree = "<group>"; };
+		147FADD31661FC6A005531E6 /* ListenerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListenerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		147FADB01661FC6A005531E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1456C37F16632DE000D62A9D /* AVFoundation.framework in Frameworks */,
+				147FADB81661FC6A005531E6 /* UIKit.framework in Frameworks */,
+				147FADBA1661FC6A005531E6 /* Foundation.framework in Frameworks */,
+				147FADBC1661FC6A005531E6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147FADA81661FC6A005531E6 = {
+			isa = PBXGroup;
+			children = (
+				1456C37E16632DE000D62A9D /* AVFoundation.framework */,
+				147FADBD1661FC6A005531E6 /* Listener */,
+				147FADB61661FC6A005531E6 /* Frameworks */,
+				147FADB41661FC6A005531E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		147FADB41661FC6A005531E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				147FADB31661FC6A005531E6 /* Listener.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		147FADB61661FC6A005531E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1456C374166320EE00D62A9D /* QuartzCore.framework */,
+				147FADB71661FC6A005531E6 /* UIKit.framework */,
+				147FADB91661FC6A005531E6 /* Foundation.framework */,
+				147FADBB1661FC6A005531E6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		147FADBD1661FC6A005531E6 /* Listener */ = {
+			isa = PBXGroup;
+			children = (
+				147FADC61661FC6A005531E6 /* ListenerAppDelegate.h */,
+				147FADC71661FC6A005531E6 /* ListenerAppDelegate.m */,
+				147FADCF1661FC6A005531E6 /* MainStoryboard.storyboard */,
+				147FADD21661FC6A005531E6 /* ListenerViewController.h */,
+				147FADD31661FC6A005531E6 /* ListenerViewController.m */,
+				147FADBE1661FC6A005531E6 /* Supporting Files */,
+			);
+			path = Listener;
+			sourceTree = "<group>";
+		};
+		147FADBE1661FC6A005531E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1456C37C16632A0A00D62A9D /* min.png */,
+				1456C3761663269500D62A9D /* max.png */,
+				1456C3711663162F00D62A9D /* voice_sound.png */,
+				147FADBF1661FC6A005531E6 /* Listener-Info.plist */,
+				147FADC01661FC6A005531E6 /* InfoPlist.strings */,
+				147FADC31661FC6A005531E6 /* main.m */,
+				147FADC51661FC6A005531E6 /* Listener-Prefix.pch */,
+				147FADC91661FC6A005531E6 /* Default.png */,
+				147FADCB1661FC6A005531E6 /* Default@2x.png */,
+				147FADCD1661FC6A005531E6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		147FADB21661FC6A005531E6 /* Listener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147FADD71661FC6A005531E6 /* Build configuration list for PBXNativeTarget "Listener" */;
+			buildPhases = (
+				147FADAF1661FC6A005531E6 /* Sources */,
+				147FADB01661FC6A005531E6 /* Frameworks */,
+				147FADB11661FC6A005531E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Listener;
+			productName = Listener;
+			productReference = 147FADB31661FC6A005531E6 /* Listener.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		147FADAA1661FC6A005531E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Listener;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = com.coamee;
+			};
+			buildConfigurationList = 147FADAD1661FC6A005531E6 /* Build configuration list for PBXProject "Listener" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 147FADA81661FC6A005531E6;
+			productRefGroup = 147FADB41661FC6A005531E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				147FADB21661FC6A005531E6 /* Listener */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		147FADB11661FC6A005531E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147FADC21661FC6A005531E6 /* InfoPlist.strings in Resources */,
+				147FADCA1661FC6A005531E6 /* Default.png in Resources */,
+				147FADCC1661FC6A005531E6 /* Default@2x.png in Resources */,
+				147FADCE1661FC6A005531E6 /* Default-568h@2x.png in Resources */,
+				147FADD11661FC6A005531E6 /* MainStoryboard.storyboard in Resources */,
+				1456C3721663162F00D62A9D /* voice_sound.png in Resources */,
+				1456C3781663269500D62A9D /* max.png in Resources */,
+				1456C37D16632A0A00D62A9D /* min.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		147FADAF1661FC6A005531E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147FADC41661FC6A005531E6 /* main.m in Sources */,
+				147FADC81661FC6A005531E6 /* ListenerAppDelegate.m in Sources */,
+				147FADD41661FC6A005531E6 /* ListenerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		147FADC01661FC6A005531E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147FADC11661FC6A005531E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		147FADCF1661FC6A005531E6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147FADD01661FC6A005531E6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		147FADD51661FC6A005531E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		147FADD61661FC6A005531E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		147FADD81661FC6A005531E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Listener/Listener-Prefix.pch";
+				INFOPLIST_FILE = "Listener/Listener-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		147FADD91661FC6A005531E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Listener/Listener-Prefix.pch";
+				INFOPLIST_FILE = "Listener/Listener-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147FADAD1661FC6A005531E6 /* Build configuration list for PBXProject "Listener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147FADD51661FC6A005531E6 /* Debug */,
+				147FADD61661FC6A005531E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147FADD71661FC6A005531E6 /* Build configuration list for PBXNativeTarget "Listener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147FADD81661FC6A005531E6 /* Debug */,
+				147FADD91661FC6A005531E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 147FADAA1661FC6A005531E6 /* Project object */;
+}
